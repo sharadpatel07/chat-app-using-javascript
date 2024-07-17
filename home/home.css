@@ -1,0 +1,63 @@
+body{
+    width: 96vw;
+    height: 94vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main{
+    width: 60vw;
+}
+
+
+#chat{
+    width: fit-content;
+    padding: 20px;
+    height: 50px;
+    border: 1px solid rgb(148, 148, 148);
+    display: flex;   
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat div{
+    margin: 0px 10px 0px 10px;
+    color: rgba(50, 50, 50, 0.715);
+}
+
+#chat button{
+    width: 90px;
+    height: 30px;
+    background-color: rgba(189, 189, 189, 0.507);
+}
+
+#main{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border: 1px solid rgb(84, 84, 84);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: scroll;
+}
+
+#logout{
+    margin: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(105, 105, 105, 0.619);
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 50px;
+    color: rgba(85, 85, 85, 0.713);
+    border: 1px solid rgba(130, 130, 130, 0.541);
+    padding: 10px;
+    border-radius: 10px;
+}

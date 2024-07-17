@@ -1,0 +1,31 @@
+body{
+    width: 96vw;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgba(152, 152, 152, 0.675);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
